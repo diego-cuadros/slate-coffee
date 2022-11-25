@@ -66,17 +66,6 @@
         "enable_video_looping": false
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "You may also like",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
     "c93b8639-6ee8-4eec-afc1-f37a74c53547": {
       "type": "multicolumn",
       "blocks": {
@@ -139,7 +128,6 @@
   },
   "order": [
     "main",
-    "product-recommendations",
     "c93b8639-6ee8-4eec-afc1-f37a74c53547",
     "5dff226e-b54e-4774-b368-9880c995c67a"
   ]
