@@ -626,3 +626,39 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+// This code is the configuration for the Slick Slider that we placed in the testimonials section we created
+$(document).ready(function(){
+  $(".testimonials-container").slick({
+      slidesToShow: 3,
+      slidesToScroll:1,
+      dots:true,
+      infinite:true,
+      arrows:false,
+      responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 989,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }]
+      });
+})
+    

@@ -135,12 +135,61 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "testimonials": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "27704c1b-602e-4c3a-8255-e177533e6231": {
+          "type": "testimonial_bloc",
+          "settings": {
+            "quotes_drawing": "shopify:\/\/shop_images\/quotes.png",
+            "comment_text": "<p><strong>Lorem Ipsum<\/strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
+            "customer_picture_image": "shopify:\/\/shop_images\/user_4.jpg",
+            "customer_name_text": "Jhonny"
+          }
+        },
+        "e14184e5-c557-4dfd-9f69-bd79da5a1fc9": {
+          "type": "testimonial_bloc",
+          "settings": {
+            "quotes_drawing": "shopify:\/\/shop_images\/quotes.png",
+            "comment_text": "<p><strong>Lorem Ipsum<\/strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
+            "customer_picture_image": "shopify:\/\/shop_images\/user_1.jpg",
+            "customer_name_text": "Mark"
+          }
+        },
+        "fa2b6db8-2f33-434d-8c3e-89dad3d5ba87": {
+          "type": "testimonial_bloc",
+          "settings": {
+            "quotes_drawing": "shopify:\/\/shop_images\/quotes.png",
+            "comment_text": "<p><strong>Lorem Ipsum<\/strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
+            "customer_picture_image": "shopify:\/\/shop_images\/user_5.jpg",
+            "customer_name_text": "Sophia"
+          }
+        },
+        "ae463f2b-6541-4c33-9bf2-395eaab2ce9c": {
+          "type": "testimonial_bloc",
+          "settings": {
+            "quotes_drawing": "shopify:\/\/shop_images\/quotes.png",
+            "comment_text": "<p><strong>Lorem Ipsum<\/strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<\/p>",
+            "customer_picture_image": "shopify:\/\/shop_images\/user_2.jpg",
+            "customer_name_text": "Laura"
+          }
+        }
+      },
+      "block_order": [
+        "27704c1b-602e-4c3a-8255-e177533e6231",
+        "e14184e5-c557-4dfd-9f69-bd79da5a1fc9",
+        "fa2b6db8-2f33-434d-8c3e-89dad3d5ba87",
+        "ae463f2b-6541-4c33-9bf2-395eaab2ce9c"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
     "product-recommendations",
     "c93b8639-6ee8-4eec-afc1-f37a74c53547",
-    "5dff226e-b54e-4774-b368-9880c995c67a"
+    "5dff226e-b54e-4774-b368-9880c995c67a",
+    "testimonials"
   ]
 }

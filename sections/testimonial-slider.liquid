@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="{{ 'section-testimonial-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<div class = "testimonials-container">
+{% for block in section.blocks %}
+    <div class = "testimonial-slider">
+        <img class = "quote-image-slider" src = "{{ block.settings.quotes_drawing | img_url: '30x30' }}">
+        <div class = "comment-slider">{{block.settings.comment_text}}</div>
+        <img class = "user-picture-slider" src = "{{ block.settings.customer_picture_image| img_url}}">
+        <div class = "user-name-slider">{{block.settings.customer_name_text}}</div>
+    </div>
+{% endfor %}
+</div>
+
+
+{% schema %}
+{
+    "name": "Testimonial-slider",
+    "settings":[],
+    "blocks":[
+        {
+            "type":"testimonial_bloc",
+            "name":"Testimonial",
+            "limit":5,
+            "settings":[
+                {
+                    "id":"quotes_drawing",
+                    "label":"Select an icon",
+                    "type":"image_picker"
+                },
+                {
+                    "id":"comment_text",
+                    "label":"Enter your testimonial",
+                    "type":"richtext"
+                },
+                {
+                    "id":"customer_picture_image",
+                    "label":"Enter your testimonial",
+                    "type":"image_picker"
+                },
+                {
+                    "id":"customer_name_text",
+                    "label":"Enter the name",
+                    "type":"text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name":"Testimonial Slider"
+        }
+    ]
+}
+{% endschema %}

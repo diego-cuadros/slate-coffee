@@ -29,33 +29,13 @@
         "show_reviews": false
       }
     },
-    "second": {
-      "type": "main-test-product",
-      "blocks": {
-        "6df16dc4-631d-4951-9133-da475201e8c6": {
-          "type": "tax_notice_block",
-          "settings": {
-            "tax_notice_text": "Tax not included"
-          }
-        },
-        "09ad9ab1-e002-4079-a7ab-69c44824b0d3": {
-          "type": "shipping_notice_block",
-          "settings": {
-            "shipping_notice_text": "Ships in 10 days"
-          }
-        }
-      },
-      "block_order": [
-        "6df16dc4-631d-4951-9133-da475201e8c6",
-        "09ad9ab1-e002-4079-a7ab-69c44824b0d3"
-      ],
-      "settings": {
-        "show_reviews": true
-      }
+    "testimonials":{
+      "type": "testimonial-slider",
+      "settings":{}
     }
   },
   "order": [
     "main",
-    "second"
+    "testimonials"
   ]
 }
