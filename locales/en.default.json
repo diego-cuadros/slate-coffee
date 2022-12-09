@@ -382,5 +382,13 @@
       "copy_code_success": "Code copied successfully",
       "print_gift_card": "Print"
     }
+  },
+  "coffee_info":{
+    "title":"Coffee Info",
+    "taste":"Taste",
+    "strength":"Strength",
+    "acidity":"Acidity",
+    "type":"Type",
+    "origin":"Origin"
   }
 }

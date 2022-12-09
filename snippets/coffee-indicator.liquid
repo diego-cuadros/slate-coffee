@@ -1,0 +1,19 @@
+<div class = "bean-score-container">
+    {% for i in (1..5) %}
+        {% if i <= level %}
+            {% render 'coffee-bean-filled' %}
+        {% else %}
+            {% render 'coffee-bean-empty' %}
+        {% endif %}
+    {% endfor %}
+
+    {% comment %}
+    {% for i in (1..block.settings.strength) -%}
+        {% render 'coffee-bean-filled' %}
+    {% endfor %}
+    {%- assign empty_beans = 5 | minus: block.settings.strength -%}
+    {% for i in (1..empty_beans)%}
+         {% render 'coffee-bean-empty' %}
+    {% endfor %}
+    {% endcomment %}
+</div>

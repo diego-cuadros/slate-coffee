@@ -2156,3 +2156,24 @@ details-disclosure > details {
   max-width:200px;
   height: 20px;
 }
+/*Styles for coffee info section on product page */
+.coffe-info{
+  width:100%;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.coffe-info td {
+  border:1px solid lightgray;
+}
+
+.bean-score-container{
+  display:flex;
+}
+
+.bean-score-container svg{
+  max-height:35px;
+  margin-top:10px;
+  margin-bottom:10px;
+  max-width:35px;
+}
